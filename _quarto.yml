@@ -38,7 +38,7 @@ quartodoc:
         # the functions being documented in the package.
         # you can refer to anything: class methods, modules, etc..
         - count_char
-        #- example.add_numbers
+        - example.add_numbers
 
 
 
