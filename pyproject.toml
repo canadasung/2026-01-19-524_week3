@@ -168,3 +168,8 @@ features = [
 
 [tool.hatch.envs.audit.scripts]
 check = ["pip-audit"]
+
+dev = [
+    "ruff",
+    "hatch"
+    ]
