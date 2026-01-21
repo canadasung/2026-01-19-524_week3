@@ -32,7 +32,7 @@ jobs:
       # manually call quartodoc build
       - name: quartodoc build
         run: |
-          quarto doc build
+          quartodoc build
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
